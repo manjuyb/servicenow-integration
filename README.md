@@ -10,12 +10,14 @@ This external Id is used as a direct link to the incident from the case layout
 - Get a SFDX Dev Hub accounts to be able to create scratch orgs
 - Ensure that you have SFDX CLI installed
 - then Open a Terminal Window and :
+```
 git clone https://github.com/stevecorbelsfdc/servicenow-integration.git
 cd servicenow-integration/
 sfdx force:auth:web:login -d -a DevHub
 sfdx force:org:create -f config/project-scratch-def.json -a servicenow --setdefaultusername
 sfdx force:source:push
 sfdx force:org:open
+````
 
 - Create a case and enjoy !
 
