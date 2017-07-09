@@ -7,7 +7,7 @@ The Incident Number and the Service Now Sys Id is set on the Salesforce case as 
 This external Id is used as a direct link to the incident from the case layout
 
 ## Dev, Build and Test
-- Get a SFDX Dev Hub accounts to be able to create scratch orgs
+- Get a SFDX Dev Hub account to be able to create scratch orgs
 - Ensure that you have SFDX CLI installed
 - then Open a Terminal Window and :
 ```
